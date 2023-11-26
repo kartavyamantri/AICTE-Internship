@@ -36,7 +36,7 @@ def reveal_message(img, key):
     return decrypt(message, key)
 
 if __name__ == "__main__":
-    img = cv2.imread("Image.png")
+    img = cv2.imread("Image1.png")
 
     key = generate_key()
     msg = input("Enter your secret message: ")
